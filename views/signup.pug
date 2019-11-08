@@ -1,0 +1,24 @@
+h1 Sign up
+if errors
+	each error in errors
+		.alert.alert-danger=error
+form(method="POST")
+	label Email
+	input(name="email", type="text", value=values?values.email:"" )
+	br
+	label Password
+	input(name="password", type="password", value=values?values.password:"" )
+	br
+	label RePassword
+	input(name="repassword", type="text", value=values?values.repassword:"" )
+	br
+	label User Name
+	input(name="username", type="text", value=values?values.username:"" )
+	br
+	label Fisrt Name
+	input(name="firstname", type="text", value=values?values.firstname:"" )
+	br
+	label Last Name
+	input(name="lastname", type="text", value=values?values.lastname:"" )
+	br
+	button Sign Up 

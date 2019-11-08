@@ -1,0 +1,21 @@
+h1 Profile
+//- if !user:
+	p User does not exist
+form(action="/profile", method="POST")
+	//- input(name="id", type="hidden",value=user?user.id:"")
+	label Email
+	input(name="email", type="text",value=user?user.email:"")
+	br
+	//- label Password
+	//- input(name="password", type="password",value=user?user.password:"")
+	//- br 
+	label User Name
+	input(name="username", type="text",value=user?user.username:"")
+	br
+	label Fisrt Name
+	input(name="firstname", type="text",value=user?user.firstname:"")
+	br
+	label Last Name
+	input(name="lastname", type="text",value=user?user.lastname:"")
+	br
+	button UPDATE Profile

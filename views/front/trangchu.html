@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trang chủ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  </style>
+</head>
+<body >
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Logo</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">TRANG CHỦ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">TIN TỨC</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">HƯỚNG DẪN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">THANH TOÁN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">SIM VIP</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">LIÊN HỆ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">DỊCH VỤ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">TUYỂN DỤNG</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PHONG THỦY</a> 
+    </li>
+    <input type="text" placeholder="Search..">
+    <!-- <a class="navbar-brand" href="#"></a> -->
+  </ul>
+</nav>
+<div class="container-fluid" style="padding-top: 56px">
+  <div class="row">
+    <!--  -->
+    <div class="col-sm-3" style="background-color:lavenderblush; padding: 0">
+      <!-- tim sim theo mang -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Tìm Sim Theo Mạng</div>
+        <!-- dropdown viettel -->
+        <div class="dropdown"  style="width: 100%" >
+          <button type="button" class="btn"><a href="#" >Viettel</a></button>
+          <div class="dropdown-content" style="width: 300px">
+            <div class="row">
+              <div class="col">
+                <a href="#">Sim Tứ Quý</a>
+                <a href="#">Sim Ngũ Quý</a>
+                <a href="#">Sim Lục Quý</a>
+                <a href="#">Sim Lộc Phát</a>
+                <a href="#">Sim Thần Tài</a>
+                <a href="#">Sim Ông Địa</a>
+                <a href="#">Sim Tiến Đơn</a>
+                <a href="#">Sim Tiến Đôi</a>
+                <a href="#">Sim Taxi 2</a>
+                <a href="#">Sim Taxi 3</a>
+                <a href="#">Sim Taxi 4</a>
+                <a href="#">Năm Sinh DD/MM/YY</a>
+              </div>
+              <div class="col">
+                <a href="#">Sim Lặp</a>
+                <a href="#">Sim Kép</a>
+                <a href="#">Sim Đối</a>
+                <a href="#">Sim Đảo</a>
+                <a href="#">Sim Gánh</a>
+                <a href="#">Sim Đặc Biệt</a>
+                <a href="#">Sim Năm Sinh</a>
+                <a href="#">Sim Đầu Số Cổ</a>
+                <a href="#">Sim Tam Hoa Đơn</a>
+                <a href="#">Sim Tam Hoa Kép</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- dropdown vinaphone -->
+        <div class="dropdown"  style="width: 100%" >
+          <button type="button" class="btn"><a href="#" >Vinaphone</a></button>
+          <div class="dropdown-content" style="width: 300px">
+            <div class="row">
+              <div class="col">
+                <a href="#">Sim Tứ Quý</a>
+                <a href="#">Sim Ngũ Quý</a>
+                <a href="#">Sim Lục Quý</a>
+                <a href="#">Sim Lộc Phát</a>
+                <a href="#">Sim Thần Tài</a>
+                <a href="#">Sim Ông Địa</a>
+                <a href="#">Sim Tiến Đơn</a>
+                <a href="#">Sim Tiến Đôi</a>
+                <a href="#">Sim Taxi 2</a>
+                <a href="#">Sim Taxi 3</a>
+                <a href="#">Sim Taxi 4</a>
+                <a href="#">Năm Sinh DD/MM/YY</a>
+              </div>
+              <div class="col">
+                <a href="#">Sim Lặp</a>
+                <a href="#">Sim Kép</a>
+                <a href="#">Sim Đối</a>
+                <a href="#">Sim Đảo</a>
+                <a href="#">Sim Gánh</a>
+                <a href="#">Sim Đặc Biệt</a>
+                <a href="#">Sim Năm Sinh</a>
+                <a href="#">Sim Đầu Số Cổ</a>
+                <a href="#">Sim Tam Hoa Đơn</a>
+                <a href="#">Sim Tam Hoa Kép</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- dropdown mobifone -->
+        <div class="dropdown"  style="width: 100%" >
+          <button type="button" class="btn"><a href="#" >Mobifone</a></button>
+          <div class="dropdown-content" style="width: 300px">
+            <div class="row">
+              <div class="col">
+                <a href="#">Sim Tứ Quý</a>
+                <a href="#">Sim Ngũ Quý</a>
+                <a href="#">Sim Lục Quý</a>
+                <a href="#">Sim Lộc Phát</a>
+                <a href="#">Sim Thần Tài</a>
+                <a href="#">Sim Ông Địa</a>
+                <a href="#">Sim Tiến Đơn</a>
+                <a href="#">Sim Tiến Đôi</a>
+                <a href="#">Sim Taxi 2</a>
+                <a href="#">Sim Taxi 3</a>
+                <a href="#">Sim Taxi 4</a>
+                <a href="#">Năm Sinh DD/MM/YY</a>
+              </div>
+              <div class="col">
+                <a href="#">Sim Lặp</a>
+                <a href="#">Sim Kép</a>
+                <a href="#">Sim Đối</a>
+                <a href="#">Sim Đảo</a>
+                <a href="#">Sim Gánh</a>
+                <a href="#">Sim Đặc Biệt</a>
+                <a href="#">Sim Năm Sinh</a>
+                <a href="#">Sim Đầu Số Cổ</a>
+                <a href="#">Sim Tam Hoa Đơn</a>
+                <a href="#">Sim Tam Hoa Kép</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- gmobile -->
+        <div class="dropdown"  style="width: 100%" >
+          <button type="button" class="btn"><a href="#" >Gmobile</a></button>
+          <div class="dropdown-content" style="width: 300px">
+            <div class="row">
+              <div class="col">
+                <a href="#">Sim Tứ Quý</a>
+                <a href="#">Sim Ngũ Quý</a>
+                <a href="#">Sim Lục Quý</a>
+                <a href="#">Sim Lộc Phát</a>
+                <a href="#">Sim Thần Tài</a>
+                <a href="#">Sim Ông Địa</a>
+                <a href="#">Sim Tiến Đơn</a>
+                <a href="#">Sim Tiến Đôi</a>
+                <a href="#">Sim Taxi 2</a>
+                <a href="#">Sim Taxi 3</a>
+                <a href="#">Sim Taxi 4</a>
+                <a href="#">Năm Sinh DD/MM/YY</a>
+              </div>
+              <div class="col">
+                <a href="#">Sim Lặp</a>
+                <a href="#">Sim Kép</a>
+                <a href="#">Sim Đối</a>
+                <a href="#">Sim Đảo</a>
+                <a href="#">Sim Gánh</a>
+                <a href="#">Sim Đặc Biệt</a>
+                <a href="#">Sim Năm Sinh</a>
+                <a href="#">Sim Đầu Số Cổ</a>
+                <a href="#">Sim Tam Hoa Đơn</a>
+                <a href="#">Sim Tam Hoa Kép</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- vietnamobile -->
+        <div class="dropdown"  style="width: 100%" >
+          <button type="button" class="btn"><a href="#" >Vietnamobile</a></button>
+          <div class="dropdown-content" style="width: 300px">
+            <div class="row">
+              <div class="col">
+                <a href="#">Sim Tứ Quý</a>
+                <a href="#">Sim Ngũ Quý</a>
+                <a href="#">Sim Lục Quý</a>
+                <a href="#">Sim Lộc Phát</a>
+                <a href="#">Sim Thần Tài</a>
+                <a href="#">Sim Ông Địa</a>
+                <a href="#">Sim Tiến Đơn</a>
+                <a href="#">Sim Tiến Đôi</a>
+                <a href="#">Sim Taxi 2</a>
+                <a href="#">Sim Taxi 3</a>
+                <a href="#">Sim Taxi 4</a>
+                <a href="#">Năm Sinh DD/MM/YY</a>
+              </div>
+              <div class="col">
+                <a href="#">Sim Lặp</a>
+                <a href="#">Sim Kép</a>
+                <a href="#">Sim Đối</a>
+                <a href="#">Sim Đảo</a>
+                <a href="#">Sim Gánh</a>
+                <a href="#">Sim Đặc Biệt</a>
+                <a href="#">Sim Năm Sinh</a>
+                <a href="#">Sim Đầu Số Cổ</a>
+                <a href="#">Sim Tam Hoa Đơn</a>
+                <a href="#">Sim Tam Hoa Kép</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tìm sim theo giá tiền -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Tìm Sim Theo Giá Tiền</div>
+        <div style="width: 100%" >
+          <button type="button" class="btn"><a href="##"> Từ 100 Triệu Trở Lên</a></button> 
+          <button type="button" class="btn"><a href="##"> Từ 50 Triệu Đến 100 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 20 Triệu Đến 50 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 10 Triệu Đến 20 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 5 Triệu Đến 10 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 2 Triệu Đến 5 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 1 Triệu Đến 2 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 500.000 Triệu Đến 1 Triệu</a></button>        
+          <button type="button" class="btn"><a href="##"> Từ 500.000 Triệu Trở Xuống</a></button>        
+       
+        </div>
+      </div>
+      <!-- tìm sim theo dạng số -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Tìm Sim Theo Dạng Số</div>
+        <div style="width: 100%" >
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Tứ Quý</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Ngũ Quý</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Lục Quý</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Lộc Phát</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Thần Tài</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Ông Địa</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Tiến Đơn</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Tiến Đôi</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Taxi 2</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Taxi 3</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Sim Taxi 4</a></button> 
+          <button type="button" class="btn" style="width: 100%"><a href="##">Năm Sinh DD/MM/YY</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Lặp</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Kép</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Đối</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Đảo</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Gánh</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Đặc Biệt</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Năm Sinh</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Đầu Số Cổ</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Tam Hoa Đơn</a></button>
+          <button type="button" class="btn" style="width: 100%"><a href="#">Sim Tam Hoa Kép</a></button>            
+  
+        </div>
+      </div>
+    </div>
+    <!-- col 2 -->
+    <div class="col-sm-6" style="background-color:white;">
+      <!-- tim sim  -->
+      <div>
+        <div  style="text-align: center" >Tìm Sim Số Đẹp</div>
+        <div>
+          <form class="form-inline" action="/action_page.php">
+            <label class="btn btn-primary" for="giatu">Giá từ:</label>
+            <input type="giatu" class="form-control" id="giatu">
+            <label class="btn btn-primary" for="giamax">Đến:</label>
+            <input type="giamax" class="form-control" id="giamax">
+            <div style="width: 100%">
+              <select name="cars" class="custom-select">
+                <option selected>Chọn mạng</option>
+                <option value="viettel">Viettel</option>
+                <option value="vinaphone">Vinaphone</option>
+                <option value="mobifone">Mobilefone</option>
+                <option value="vietnamobile">Vietnamobile</option>
+                <option value="gmobile">Gmobile</option>
+              </select>
+            </div>
+            <input class="form-control" type="search" name="search" style="width: 80%">
+            <button type="search" class="btn btn-primary" style="width: 20%">Search</button>
+          </form>
+          <div><strong>Search:</strong> *888, 0912*68, 090*888, 0913*, *6688</div>
+        </div>
+      </div>
+
+      <!-- trang chu -->
+      <p>
+        <strong>Bán sim số đẹp</strong> giá rẻ.&nbsp;<strong>Mua sim số đẹp</strong>&nbsp;giá cao.&nbsp;Hệ thống phân phối hơn 99 triệu sim Viettel, Vinaphone, Mobifone, Vietnamobile, Gmobile.
+      </p>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>STT</th>
+            <th>Số thuê bao</th>
+            <th>Tổng</th>
+            <th>Giá</th>
+            <th>Mạng</th>
+            <th>Loại sim</th>
+            <th>Đặt Mua</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>0987886886</td>
+            <td>78</td>
+            <td>30,000,000</td>
+            <td>Viettel</td>
+            <td>Sim thần tài</td>
+            <td>v</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <!-- col 3 -->
+    <div class="col-sm-3" style="background-color:lavenderblush;">
+      <!-- tim sim theo ngay sinh -->
+      <div>
+          <div class="btn btn-info"  style="text-align: center" >Tìm Sim Theo Ngày Sinh</div>
+          <div>
+            <form action="/action_page.php">
+            <div class="form-group">
+              <input type="ngaysinh" class="form-control" id="ngaysinh" placeholder="dd/mm/yy" name="ngaysinh">
+            </div>
+            <button type="search" class="btn btn-info">Search</button>
+          </form>
+          </div>
+      </div>
+      <!-- dien thoai hien he -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Điện thoại</div>
+        <img src="sdt.gif" title="Gọi ngay để được tư vẫn miến phí!" alt="Số điện thoại của liên hệ với shop. 0912.83.83.83, 0902.83.83.83" style="width: 100%">
+      </div>
+      <!-- tim sim theo dau so -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Tìm Sim Theo Giá Tiền</div>
+        <div style="width: 100%" >
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 090 - Mobifone</a></button> 
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 091 - Vinaphone</a></button>       
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 092 - Vietnamobile</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 093 - Mobifone</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 094 - Vinaphone</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 096 - Viettel</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 097 - Viettel</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 098 - Viettel</a></button>        
+          <button type="button" class="btn"><a href="##">Sim Số Đẹp 099 - Gmobile</a></button>        
+       
+        </div>
+      </div>
+      <!-- Tìm sim theo phong thủy -->
+      <div>
+        <div class="btn btn-info" style="text-align: center;width:100%">Tìm Sim Theo Phong Thủy</div>
+        <div>
+          <form action="/action_page.php">
+          <div class="form-group">
+            <label for="tongnut">Tổng nút:</label>
+            <input type="tongnut" class="form-control" id="tongnut" placeholder="Tổng nút từ 1 đến 10" name="tongnut">
+          </div>
+          <div class="form-group">
+            <label for="tongdiem">Tổng điểm:</label>
+            <input type="tongdiem" class="form-control" id="tongdiem" placeholder="Tổng điểm < 82" name="tongdiem">
+          </div>
+          <button type="search" class="btn btn-primary">Search</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
