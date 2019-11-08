@@ -1,1 +1,4 @@
-# hapi-server
+# Hapi-server Nodejs 
+* Login
+* Signup
+* Update profile
